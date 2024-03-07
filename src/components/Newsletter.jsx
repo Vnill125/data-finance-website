@@ -12,6 +12,7 @@ const Newsletter = () => {
                 <input type="email" placeholder='Enter your email' className='mr-6 w-full my-6 rounded-md font-mono pl-2' />
                 <button type='submit' className='bg-[#00df9a] hover:opacity-60 text-black rounded-md font-semibold w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
             </div>
+
         </div>
     </div>
   )
