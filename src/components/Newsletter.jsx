@@ -5,15 +5,18 @@ const Newsletter = () => {
     <div className='bg-black'>
         <div className='w-max-[1240px] mx-auto flex flex-col lg:flex-row justify-around py-14 px-4'>
             <div className='flex flex-col'>
-                <h1 className='text-white text-4xl font-bold'>Wants rips & tricks to optimize your flow?</h1>
+                <h1 className='text-white text-xl lg:text-4xl font-bold'>Wants rips & tricks to optimize your flow?</h1>
                 <p className='text-white my-2'>Sing up to our newsletter and stay up to date.</p>
             </div>
-            <div className='flex'>
-                <input type="email" placeholder='Enter your email' className='mr-6 w-full my-6 rounded-md font-mono pl-2' />
-                <button type='submit' className='bg-[#00df9a] hover:opacity-60 text-black rounded-md font-semibold w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
+            <div>
+              <div className='flex'>
+                  <input type="email" placeholder='Enter your email' className='mr-6 w-full my-6 rounded-md pl-2' />
+                  <button type='submit' className='bg-[#00df9a] hover:opacity-60 text-black rounded-md font-semibold w-[200px] ml-4 my-6 px-6 py-3'>Notify Me</button>
+              </div>
+              <p className='text-white'>We care bout the protection of your data. Read our <span className='text-[#00df9a]'>Privacy Policy.</span></p>
             </div>
-
         </div>
+        
     </div>
   )
 }
