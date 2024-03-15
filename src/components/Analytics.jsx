@@ -8,9 +8,9 @@ const Analytics = () => {
       <div className='max-w-[1240px] py-20 mx-auto flex flex-col lg:flex-row'>
       <img className='w-[500px] mx-auto' src={laptop} />
       <div className='flex flex-col justify-center p-4'>
-        <p className='font-bold text-[#00df9a] text-xl py-2'>DATA ANALYTICS DASHBOARD</p>
-        <h1 className='font-bold text-black text-3xl'>Manage Data Analytics Centrally</h1>
-        <p className='text-black text-lg'>
+        <p className='font-bold text-[#00df9a] text-lg lg:text-xl py-2'>DATA ANALYTICS DASHBOARD</p>
+        <h1 className='font-bold text-black text-2xl lg:text-3xl'>Manage Data Analytics Centrally</h1>
+        <p className='text-black lg:text-lg'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
           molestiae delectus culpa hic assumenda, voluptate reprehenderit
           dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
