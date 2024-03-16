@@ -11,13 +11,9 @@ const Analytics = () => {
         <p className='font-bold text-[#00df9a] text-lg lg:text-xl py-2'>DATA ANALYTICS DASHBOARD</p>
         <h1 className='font-bold text-black text-2xl lg:text-3xl'>Manage Data Analytics Centrally</h1>
         <p className='text-black lg:text-lg'>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum
-          molestiae delectus culpa hic assumenda, voluptate reprehenderit
-          dolore autem cum ullam sed odit perspiciatis. Doloribus quos velit,
-          eveniet ex deserunt fuga?
+        Our data analytics company provides actionable insights and meaningful solutions to help businesses make informed decisions and improve their bottom line. We use cutting-edge technologies and industry expertise to turn data into valuable business intelligence.
         </p>
-        <button className='bg-black w-[200px] mx-auto rounded-md text-[#00df9a] font-medium py-3 hover:opacity-60 hover:py-4
-         hover:w-[220px] duration-300 hover:text-lg mt-14'>Get Started</button>
+        <button className='bg-black w-[200px] mx-auto rounded-md text-[#00df9a] font-medium py-3 hover:opacity-60 hover:scale-110 duration-300 hover:text-lg mt-14'>Get Started</button>
       </div>
       </div>
     </div>
