@@ -14,7 +14,7 @@ const NavBar = () => {
     }
 
     const pathName = useLocation();
-
+ 
     const Navigation = [
       {
         id: "1",
