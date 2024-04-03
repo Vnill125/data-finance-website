@@ -31,7 +31,7 @@ const Cards = () => {
         img: Triple
     }
     ]
-
+    
   return (
     <div className='w-full bg-white py-[10rem] px-4'>
       <div className='max-w-[1240px] mx-auto flex flex-col lg:flex-row'>
